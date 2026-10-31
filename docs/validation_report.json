@@ -1,0 +1,137 @@
+{
+  "package": "inno_medical_edu_sim",
+  "trl_claim": 4,
+  "data": "synthetic only",
+  "all_pass": true,
+  "runs": [
+    {
+      "seed": 0,
+      "metrics": {
+        "score_ability_corr": 0.8768,
+        "kr20": 0.7728,
+        "min_item_discrimination": 0.2593,
+        "progress_detected": 0.8375
+      },
+      "criteria": [
+        {
+          "metric": "score_ability_corr",
+          "op": ">=",
+          "threshold": 0.8,
+          "value": 0.8768,
+          "pass": true,
+          "description": "correlation of checklist score with latent ability"
+        },
+        {
+          "metric": "kr20",
+          "op": ">=",
+          "threshold": 0.7,
+          "value": 0.7728,
+          "pass": true,
+          "description": "KR-20 internal consistency of checklist"
+        },
+        {
+          "metric": "min_item_discrimination",
+          "op": ">=",
+          "threshold": 0.05,
+          "value": 0.2593,
+          "pass": true,
+          "description": "lowest item-rest point-biserial correlation"
+        },
+        {
+          "metric": "progress_detected",
+          "op": ">=",
+          "threshold": 0.7,
+          "value": 0.8375,
+          "pass": true,
+          "description": "students with positive score trend detected as improving"
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "metrics": {
+        "score_ability_corr": 0.9,
+        "kr20": 0.8638,
+        "min_item_discrimination": 0.4375,
+        "progress_detected": 0.725
+      },
+      "criteria": [
+        {
+          "metric": "score_ability_corr",
+          "op": ">=",
+          "threshold": 0.8,
+          "value": 0.9,
+          "pass": true,
+          "description": "correlation of checklist score with latent ability"
+        },
+        {
+          "metric": "kr20",
+          "op": ">=",
+          "threshold": 0.7,
+          "value": 0.8638,
+          "pass": true,
+          "description": "KR-20 internal consistency of checklist"
+        },
+        {
+          "metric": "min_item_discrimination",
+          "op": ">=",
+          "threshold": 0.05,
+          "value": 0.4375,
+          "pass": true,
+          "description": "lowest item-rest point-biserial correlation"
+        },
+        {
+          "metric": "progress_detected",
+          "op": ">=",
+          "threshold": 0.7,
+          "value": 0.725,
+          "pass": true,
+          "description": "students with positive score trend detected as improving"
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "metrics": {
+        "score_ability_corr": 0.87,
+        "kr20": 0.8123,
+        "min_item_discrimination": 0.3484,
+        "progress_detected": 0.7125
+      },
+      "criteria": [
+        {
+          "metric": "score_ability_corr",
+          "op": ">=",
+          "threshold": 0.8,
+          "value": 0.87,
+          "pass": true,
+          "description": "correlation of checklist score with latent ability"
+        },
+        {
+          "metric": "kr20",
+          "op": ">=",
+          "threshold": 0.7,
+          "value": 0.8123,
+          "pass": true,
+          "description": "KR-20 internal consistency of checklist"
+        },
+        {
+          "metric": "min_item_discrimination",
+          "op": ">=",
+          "threshold": 0.05,
+          "value": 0.3484,
+          "pass": true,
+          "description": "lowest item-rest point-biserial correlation"
+        },
+        {
+          "metric": "progress_detected",
+          "op": ">=",
+          "threshold": 0.7,
+          "value": 0.7125,
+          "pass": true,
+          "description": "students with positive score trend detected as improving"
+        }
+      ]
+    }
+  ]
+}
