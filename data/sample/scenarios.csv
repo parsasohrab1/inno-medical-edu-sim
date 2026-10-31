@@ -1,0 +1,5 @@
+id,title,critical_items
+chest_pain,Chest pain in the ER,"0,1"
+asthma,Acute asthma attack,"0,2"
+diabetic_foot,Diabetic foot ulcer,0
+pediatric_fever,Febrile child,"0,3"
